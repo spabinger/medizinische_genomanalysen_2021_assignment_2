@@ -5,7 +5,7 @@
 * Use the chr21_**new**.vcf file
 
 ## Overview
-* Complete the python program, based on the template, to calculate various properties
+* Complete the python program to calculate various properties. The tests are failing right now because the method isn't outputting the correct string. Fixing this up will make the tests green.
 * Commit (often)
 * Run pytest
 * Push to **your** repository
@@ -13,5 +13,11 @@
 
 ## Tools
 * pyvcf (http://pyvcf.readthedocs.io/en/latest/)
+
+## Setup command
+`sudo -H pip3 install pyvcf`
+
+## Run command
+`pytest`
 
 
